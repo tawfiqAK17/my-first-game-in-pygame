@@ -150,8 +150,6 @@ def check_event(settings1,settings2,screen, player1, player2, ball, shopingScree
                 activate(event, screen, player2, player1, ball)
 
     keys = pygame.key.get_pressed()
-    if keys[pygame.K_q]:
-        sys.exit()
         
     if not player1.is_shoping:
         move_player(keys, player1, screen)
